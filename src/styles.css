@@ -1,0 +1,22 @@
+/* Контейнер для всей страницы */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    /* Убираем общий скролл */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
